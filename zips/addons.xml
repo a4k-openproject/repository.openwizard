@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="respository.openwizard" name="[COLOR darkgreen]Open[/COLOR]Wizard Repository" version="1.0" provider-name="drinfernoo">
-    <extension point="xbmc.addon.repository" name="[COLOR darkgreen]Open[/COLOR]Wizard Repository">
+<addon id="plugin.program.openwizard" name="[COLOR limegreen][B]Open[/B][/COLOR]Wizard" version="1.0.0" provider-name="drinfernoo">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.requests" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR limegreen][B]Open[/B][/COLOR]Wizard</summary>
+        <description lang="en">[COLOR limegreen][B]Open[/B][/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/drinfernoo/plugin.program.openwizard/</source>
+        <news>
+        1.0.0
+         - Initial Commit
+        </news>
+    </extension>
+</addon>
+
+<addon id="respository.openwizard" name="[COLOR limegreen][B]Open[/B][/COLOR]Wizard Repository" version="1.0" provider-name="drinfernoo">
+    <extension point="xbmc.addon.repository" name="[COLOR limegreen][B]Open[/B][/COLOR]Wizard Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/</datadir>
         </dir>
     </extension>
+
     <extension point="xbmc.addon.metadata">
-        <summary>[COLOR darkgreen]Open[/COLOR]Wizard</summary>
-        <description>The official home of OpenWizard.</description>
+        <summary>[COLOR limegreen][B]Open[/B][/COLOR]Wizard</summary>
+        <description>The official home of [COLOR limegreen][B]Open[/B][/COLOR]Wizard.</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
