@@ -1,0 +1,19 @@
+<advancedsettings>
+    <cache>
+        <buffermode>0</buffermode>  <!-- Choose what to buffer:
+                                         0) Buffer all internet filesystems (like "2" but additionally also ftp, webdav, etc.) (default)
+                                         1) Buffer all filesystems (including local)
+                                         2) Only buffer true internet filesystems (streams) (http, https, etc.)
+                                         3) No buffer
+                                         4) Buffer all network filesystems (incl. smb, nfs, etc.) -->
+        <memorysize>0</memorysize>  <!-- number of bytes used for buffering streams in memory When set to 0 the cache will be written to disk instead of RAM -->
+        <readfactor>4.0</readfactor>  <!-- this factor determines the max readrate in terms of readfactor * avg bitrate of a video file. -->
+    </cache>
+    <network>
+        <curlclienttimeout>10</curlclienttimeout>  <!-- Timeout in seconds for libcurl (http/ftp) connections -->
+        <curllowspeedtime>20</curllowspeedtime>  <!-- Time in seconds for libcurl to consider a connection lowspeed -->
+        <curlretries>2</curlretries>  <!-- Amount of retries for certain failed libcurl operations (e.g. timeout) -->
+        <httpproxyusername></httpproxyusername>  <!-- username for Basic Proxy Authentication -->
+        <httpproxypassword></httpproxypassword>  <!-- password for Basic Proxy Authentication -->
+    </network>
+</advancedsettings>
