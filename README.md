@@ -3,4 +3,4 @@
 The official home of OpenWizard.
 
 Kodi File Manager Source:
-https://drinfernoo.github.io/
+https://a4k-openproject.github.io/repository.openwizard/

@@ -2,22 +2,22 @@
     "presets": [
         {
             "name": "Default Network & Cache Settings",
-            "url": "https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/presets/default_cache_preset.xml",
+            "url": "https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/presets/default_cache_preset.xml",
             "description": "This preset will restore the default settings for the 'network' and 'cache' categories."
         },
         {
             "name": "Zero Cache Preset",
-            "url": "https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/presets/zero_cache_preset.xml",
+            "url": "https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/presets/zero_cache_preset.xml",
             "description": "This preset will enable 'zero cache' on your device. [B]DO NOT[/B] use this preset on devices with low amounts of free storage, or that have flash storage. [B]It is only safe[/B] to use on devices with hard drives."
         },
         {
             "name": "Low-RAM Device Preset",
-            "url": "https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/presets/low_ram_preset.xml",
+            "url": "https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/presets/low_ram_preset.xml",
             "description": "This preset can be used on devices with less than 2GB of RAM, like Amazon Fire Sticks."
         },
         {
             "name": "High-End Device Preset",
-            "url": "https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/presets/high_end_preset.xml",
+            "url": "https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/presets/high_end_preset.xml",
             "description": "This preset can be used on devices with more than 2GB of RAM, like the Nvidia Shield."
         }
     ]
