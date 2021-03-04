@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.openwizard" name="[COLOR limegreen]Open[/COLOR]Wizard" version="2.0.0" provider-name="drinfernoo">
+<addon id="plugin.program.openwizard" name="[COLOR limegreen]Open[/COLOR]Wizard" version="2.0.1" provider-name="drinfernoo, slamious">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
         <import addon="script.module.six" />
         <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
     </requires>
     
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -20,6 +21,8 @@
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
         <news>
+2.0.1
+ - Add attribution to @slamious
 2.0.0
  - Initial Matrix support
 1.4.5
