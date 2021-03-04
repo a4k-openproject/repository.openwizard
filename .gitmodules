@@ -1,0 +1,6 @@
+[submodule "leia/plugin.program.openwizard"]
+	path = leia/plugin.program.openwizard
+	url = https://github.com/a4k-openproject/plugin.program.openwizard
+[submodule "matrix/plugin.program.openwizard"]
+	path = matrix/plugin.program.openwizard
+	url = https://github.com/a4k-openproject/plugin.program.openwizard
